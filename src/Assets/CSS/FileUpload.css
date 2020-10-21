@@ -1,0 +1,47 @@
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+
+
+.inputfile + label {
+    font-size: 1em;
+    font-weight: 550;
+    color: white;
+    display: inline-block;
+    background-color:  rgb(78,92,106);
+    padding: 5px;
+    border-radius: 7px;
+    transition: 0.5s ;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: rgb(143,151,160);
+}
+
+
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+.inputfile:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+.iconUpload{
+    text-align: center;
+    color: white;
+}
+
+.fileLable{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

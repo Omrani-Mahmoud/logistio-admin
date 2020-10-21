@@ -1,0 +1,18 @@
+.MuiTypography-body1{
+    font-size: 14px !important;
+
+}
+
+.dash_links{
+    text-decoration: none;
+    color: inherit;
+}
+
+.MuiInput-underline:after{
+    border-bottom-color: #303030 !important;
+}
+
+
+.active_store{
+    border: none !important;
+}
